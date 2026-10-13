@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Lists current directory entries without the prefix before the first dash
+
+for file in *
+do
+    echo "${file#*-}"
+done
