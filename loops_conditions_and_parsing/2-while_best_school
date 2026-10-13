@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#some comment
 count=0
 
 while [ "$count" -lt 10 ]
